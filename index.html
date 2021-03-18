@@ -51,7 +51,7 @@
     <section class="main-heading">
         <div class="main-section">
         <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="main-button" type="button">Заказать услугу</button>
+        <button data-modal-open class="main-button" type="button">Заказать услугу</button>
         </div>
     </section>
 
@@ -400,5 +400,14 @@
     </div>
          </div>
     </footer>
+<!-- Modal window -->
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button data-modal-close class="closebtn"></button>
+    </div>
+</div>
+
+<script src="./modal.js"></script>
     </body>
     </html>
